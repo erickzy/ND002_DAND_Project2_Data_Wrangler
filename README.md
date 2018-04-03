@@ -64,6 +64,7 @@
 * 评分的总体分布情况
 
 **所以需要完成tweet-archive-master文档应包含以下内容，相应数据来源在括号中标识：**
+
 * tweet_id 推特账号 （df_tweeter）
 * text 推文（df_tweeter）
 * timestamp 时间戳（df_tweeter）
@@ -75,6 +76,16 @@
 * dog-types 狗的品种(df_pred)
 * dog-prediction probabily 品种预测的概率(df_pred)
 
+
+---
+## Update 2018_04_03
+1st review存在的问题:
+我们来观察下项目动机中的要点会发现，这里有2个问题是强制要求被标记且处理的： 1），只需要原始的数据 2），只需要包含图片的数据（新的提交中已经更改）
+
+关于狗的地位的问题 多种地位的狗，其实最好是将他们保留下来 因为text中可能有些地位是以大写开头的，部分大写的地位没有提取（新的提交中已经更改）
+
+狗名的提取还包括This is|Meet|name is|Say hello to|named 这几种不同类型的信号词 
+（但我发现更正掉named的信号词的词条后，还有错误提取了冠词的现象，而这些现象往往都是以This is|Meet|等为提取信号词而错误提取的。 由于name本身不是我研究的主要对象，故还是保留了之提取named信号词的动作。其余的还是按照元数据提供的name信息进行分析。）
 
 
 
