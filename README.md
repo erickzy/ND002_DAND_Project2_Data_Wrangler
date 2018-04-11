@@ -51,8 +51,11 @@
 ### 项目文件
 * 学员提交的文件夹中是否包含所有必需的文件
     - （DONE）[wrangle_act.ipynb](https://github.com/erickzy/ND002_DAND_Project2_Data_Wrangler/blob/master/wrangle_act.ipynb)
+    
     - （DONE）[wrangle_report.pdf](https://github.com/erickzy/ND002_DAND_Project2_Data_Wrangler/blob/master/wrangle_report.md)
+    
     - （DONE）[act_report.pdf](https://github.com/erickzy/ND002_DAND_Project2_Data_Wrangler/blob/master/act_report.md)
+    
     - （DONE）并包括所有的数据集文件，如存储的主数据集，并使用在项目提交页面中指定的文件名和扩展名。  
 
 ## 个人期望结论假设
